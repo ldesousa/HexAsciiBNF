@@ -19,7 +19,8 @@ Please consult the BNF file for the exact meaning of each parameter.
 Example
 -------
 
-```nclos	3
+```
+nclos	3
 nrows	3
 xll		2.5
 yll		-2.5
