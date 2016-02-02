@@ -43,16 +43,16 @@ hex_grid = mandatory_header optional_fields grid_values;
 mandatory_header = ncols nrows xll yll side; 
 ncols = "ncols" blank number line_break; 
 nrows = "nrows" blank number line_break; 
-xll   = "xll"   blank number line_break; 
-yll   = "yll"   blank number line_break; 
-side  = "yll"   blank number line_break; 
+xll   = "xll"   blank real   line_break; 
+yll   = "yll"   blank real   line_break; 
+side  = "yll"   blank real   line_break; 
 
 # The optional fields:
 # . no_data, for cell with unknown value
 # . angle, 
 optional_fields = {no_data} {angle}; 
-no_data = "no_data" blank number line_break; 
-angle   = "angle"   blank number line_break; 
+no_data = "no_data" blank real line_break; 
+angle   = "angle"   blank real line_break; 
 
 # The optional fields:
 # . no_data, for cells with unknown value
