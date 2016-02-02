@@ -1,5 +1,5 @@
-Ambiance-LightDark-Blue
-=======================
+BNF grammar for ASCII Hexagonal grids
+=====================================
 
 
 Copyright
@@ -12,7 +12,7 @@ document license.
 Description
 --------------------------------------------------------------------------------------
 
-Defines a syntax for the encoding of hexagonal grids in ASCII text files.
+Defines a grammar to encode hexagonal grids in ASCII text files.
 
 Please consult the BNF file for the exact meaning of each parameter.
 
