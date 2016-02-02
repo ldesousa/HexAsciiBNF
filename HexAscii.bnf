@@ -1,0 +1,21 @@
+#
+# BNF syntax for ASCII coded Hexagonal grids
+#
+# A set of one or more blank spaces
+blank = " "|"\t" {blank};
+# Line break
+line_break = "\n"|"\r";
+# A digit is any character from 0 to 9:
+digit = "0".."9";
+# Number is a positive integer:
+number = digit {digit};
+# Integer numbers have an optional +/- sign followed by one or more digits:
+integer = ["+"|"-"] digit {digit};
+# Real numbers have an integer part followed either by a fractional part or an exponent part or both:
+real = integer (fraction | exponent| fraction exponent); fraction = "." digit {digit}; exponent = ("E"|"e") integer;
+# #######
+# Main structure
+file = mandatory_fields optional_fields grid_values; mandatory_fields = ncols nrows xll yll side; ncols = "ncols" blank number line_break; nrows = 
+"nrows" blank number line_break; xll = "xll" blank number line_break; yll = "yll" blank number line_break; side = "yll" blank number line_break; 
+optional_fields = {no_data} {angle}; no_data = "no_data" blank number line_break; angle = "angle" blank number line_break; grid_values = grid_value 
+{grid_value}; grid_value = real blank|line_break;
