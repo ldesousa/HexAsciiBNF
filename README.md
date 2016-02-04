@@ -6,8 +6,8 @@ Copyright
 --------------------------------------------------------------------------------------
 
 Copyright 2016 Luís Moreira de Sousa. All rights reserved. 
-Any use of this software constitutes full acceptance of all terms of the 
-document license.
+Any use of this document constitutes full acceptance of all terms of the 
+document licence.
 
 Description
 --------------------------------------------------------------------------------------
@@ -34,5 +34,5 @@ no_data	9999
 Licence
 --------------------------------------------------------------------------------------
 
-This grammar is released under the EUPL 1.1 licence.  
-For further details please consult the LICENCE file.
+This grammar is released under the EUPL 1.1 licence. For further details please 
+consult the LICENCE file.
