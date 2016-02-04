@@ -3,6 +3,9 @@
 #
 # Author: Luís de Sousa (luis.de.sousa[@]protonmail.ch)
 # Date: 02-02-2016 
+#
+# Verify BNF grammars online:
+# http://www.icosaedro.it/bnf_chk/bnf_chk-on-line.html
 
 # -----------------------------------------------
 # Basic elements
@@ -45,7 +48,7 @@ ncols = "ncols" blank number line_break;
 nrows = "nrows" blank number line_break; 
 xll   = "xll"   blank real   line_break; 
 yll   = "yll"   blank real   line_break; 
-side  = "yll"   blank real   line_break; 
+side  = "side"  blank real   line_break; 
 
 # The optional fields:
 # . no_data, for cell with unknown value
