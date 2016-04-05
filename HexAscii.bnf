@@ -57,9 +57,7 @@ optional_fields = {no_data} {angle};
 no_data = "no_data" blank real line_break; 
 angle   = "angle"   blank real line_break; 
 
-# The optional fields:
-# . no_data, for cells with unknown value
-# . angle, specifying a rotation relative to the xx axis 
+# The data array, with values sperate by blanks or line breaks
 grid_values = grid_value {grid_value}; 
 grid_value = real blank|line_break;
 
