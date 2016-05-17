@@ -31,6 +31,14 @@ no_data	9999
 24.1 23.8 23.3
 ```
 
+Tools using this grammar
+------------------------
+
+. [**Hex-Utils**](https://github.com/ldesousa/hex-utils) - a Python package for the manipulation of hexagonal grids.
+
+. [**CADDIES**](http://emps.exeter.ac.uk/engineering/research/cws/resources/caddies-framework/caddies-2d/) - a cellular automata development framework.
+
+
 Licence
 --------------------------------------------------------------------------------------
 
