@@ -1,8 +1,12 @@
 #
-# BNF syntax for ASCII encoded cartographic hexagonal grids
+# BNF syntax for ASCII encoded cartographic hexagonal grids.
 #
 # Author: Luís de Sousa (luis.de.sousa[@]protonmail.ch)
 # Date: 02-02-2016 
+#
+# This specification uses non-formal rules to ease readability:
+# . Optional items enclosed in square brackets, e.g. ["+"|"-"]
+# . Items existing zero or more times enclosed in curly brackets, e.g {digit}
 #
 # Verify BNF grammars online:
 # http://www.icosaedro.it/bnf_chk/bnf_chk-on-line.html
@@ -26,9 +30,10 @@ number = digit {digit};
 integer = ["+"|"-"] digit {digit};
 
 # Real numbers have an integer part followed either by a fractional part or an exponent part or both:
-real = integer (fraction | exponent| fraction exponent); 
 fraction = "." digit {digit}; 
 exponent = ("E"|"e") integer;
+real = integer (fraction | exponent| fraction exponent); 
+
 
 # -----------------------------------------------
 # Main structure
