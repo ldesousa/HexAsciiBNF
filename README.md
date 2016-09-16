@@ -20,7 +20,7 @@ Example
 -------
 
 ```
-nclos	3
+ncols	3
 nrows	3
 xll		2.5
 yll		-2.5
