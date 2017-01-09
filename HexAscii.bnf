@@ -1,5 +1,5 @@
 #
-# BNF syntax for ASCII encoded cartographic hexagonal grids.
+# BNF syntax for ASCII encoded cartographic hexagonal rasters.
 #
 # Author: Luís de Sousa (luis.de.sousa[@]protonmail.ch)
 # Date: 02-02-2016 
@@ -41,8 +41,8 @@ real = integer (fraction | exponent| fraction exponent);
 # An HexAscii file is composed by three sections:
 # . mandatory header
 # . optional parameters
-# . grid values
-hex_grid = mandatory_header optional_fields grid_values;
+# . cell values values
+hasc_raster = mandatory_header optional_fields cell_values;
 
 # The mandatory header comprises:
 # . number of columns
@@ -65,7 +65,7 @@ no_data = "no_data" blank real line_break;
 angle   = "angle"   blank real line_break; 
 
 # The data array, with values separated by blanks or line breaks
-grid_values = grid_value {grid_value}; 
-grid_value  = real blank|line_break;
+cell_values = cell_value {cell_value}; 
+cell_value  = real blank|line_break;
 
 

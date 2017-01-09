@@ -5,7 +5,7 @@ BNF grammar for ASCII Hexagonal grids
 Copyright
 --------------------------------------------------------------------------------------
 
-Copyright 2016 Luís Moreira de Sousa. All rights reserved. 
+Copyright 2016-2017 Luís Moreira de Sousa. All rights reserved. 
 Any use of this document constitutes full acceptance of all terms of the 
 document licence.
 
