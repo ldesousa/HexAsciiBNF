@@ -13,7 +13,7 @@ documents licence.
 Description
 --------------------------------------------------------------------------------------
 
-Defines a grammar to encode hexagonal raster in ASCII text files.
+Defines a grammar to encode hexagonal rasters in ASCII text files.
 
 Please consult the BNF file for the exact meaning of each parameter.
 
@@ -31,6 +31,14 @@ no_data	9999
 24 24.2 23.7
 24.1 23.8 23.3
 ```
+
+Citing HexASCII
+---------------
+
+Details on the motivation and technical choices underpinning the HexASCII grammar can be found in the document below. Please use this reference to cite HexASCII.
+
+de Sousa L. M. and Leitão J.P.
+[HexASCII: A file format for cartographical hexagonal rasters](https://doi.org/10.1111/tgis.12304). Transactions in GIS. 2017;00:116.
 
 Tools using this grammar
 ------------------------
