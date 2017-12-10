@@ -45,6 +45,8 @@ Tools using this grammar
 
 . [**Hex-Utils**](https://github.com/ldesousa/hex-utils) - a Python package for the manipulation of hexagonal grids.
 
+. [**Hex-Utils QGis plug-in**](https://github.com/ldesousa/hex-utils-qgis) - user interface to `hex-utils`.
+
 . [**CADDIES**](http://www.eawag.ch/en/department/sww/projects/caddies/) - a cellular automata development framework, presently applied to urban flood modelling.
 
 
