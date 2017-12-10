@@ -48,6 +48,16 @@ Tools using this grammar
 . [**CADDIES**](http://www.eawag.ch/en/department/sww/projects/caddies/) - a cellular automata development framework, presently applied to urban flood modelling.
 
 
+Project updates
+-------------------------------------------------------------------------------
+
+For the latest updates on the software using HexASCII please consult the
+[`hex-utils` project page](https://www.researchgate.net/project/HexUtils-software-tools-for-hexagonal-rasters) 
+at ResearchGate.
+
+New information is also posted on Twitter under the [#HexASCII](https://twitter.com/hashtag/HexASCII) tag.   
+
+
 Licence
 --------------------------------------------------------------------------------------
 
